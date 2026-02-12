@@ -121,7 +121,7 @@
                 <input type="checkbox" name="social" id="x" value="x">
                 <label for="x">X</label>
                 <br>
-
+                <br>
                 <label for="musicStyle">Estilo Musical:</label>
                 <input list="styleTypes" type="text" name="userMusicStyle" id="musicStyle">
                 <datalist id="styleTypes">
@@ -131,10 +131,30 @@
                     <option value="Sertanejo">Sertanejo</option>
                 </datalist>
                 <br>
-
+                <br>
                 <label for="favoriteColor">Cor Favorita:</label>
                 <input type="color" name="userFavoriteColor" id="favoriteColor">
                 <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pesquisa de satisfação</legend>
+
+                <label for="satisfactionLevel">Qual seu nível de Satisfação:</label>
+                <br>
+                <input type="radio" name="userSatisfactionLevel" id="satisfactionLevel" value="Ótimo">
+                <label for="satisfactionLevel">Ótimo</label>
+                <input type="radio" name="userSatisfactionLevel" id="satisfactionLevel2" value="Bom">
+                <label for="satisfactionLevel2">Bom</label>
+                <input type="radio" name="userSatisfactionLevel" id="satisfactionLevel3" value="Regular">
+                <label for="satisfactionLevel3">Regular</label>
+                <input type="radio" name="userSatisfactionLevel" id="satisfactionLevel4" value="Ruim">
+                <label for="satisfactionLevel4">Ruim</label>
+                <br>
+                <br>
+                <label for="comments">Comentários:</label>
+                <br>
+                <textarea name="userComments" id="comments" rows="4" cols="50" placeholder="Deixe seu comentário aqui..."></textarea>
             </fieldset>
 
             <br>
