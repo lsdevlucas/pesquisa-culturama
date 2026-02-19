@@ -55,6 +55,16 @@ label{
     margin-bottom: 10px;
 }
 
+input[type="tel"],
+input[type="file"]{
+    margin-bottom: 0px;
+}
+
+small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
 p{
     margin-bottom: 15px;
     font-weight: bold;
